@@ -5,9 +5,9 @@ dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 const router = Router();
 
-// @route GET api/users
+// @route GET api/posts
 // @desc Test route
 // @access Public
-router.get("/", (req, res) => res.send("User route"));
+router.get("/", (req, res) => res.send("Posts route"));
 
 export default router;
